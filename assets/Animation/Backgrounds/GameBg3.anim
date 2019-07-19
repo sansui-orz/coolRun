@@ -1,0 +1,48 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GameBg3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.05,
+  "sample": 20,
+  "speed": 0.1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "Back/Node1": {
+        "props": {
+          "x": []
+        }
+      },
+      "Back": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 100
+            },
+            {
+              "frame": 3.05,
+              "value": -600
+            }
+          ]
+        }
+      },
+      "Back copy": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 800
+            },
+            {
+              "frame": 3.05,
+              "value": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

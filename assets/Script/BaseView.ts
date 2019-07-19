@@ -11,9 +11,17 @@ export default class NewClass extends cc.Component {
 
     // LIFE-CYCLE CALLBACKS:
 
+    private lock = false;
+
     onLoad () {
-      this.lie.node.on('touchstart', () => {});
-      this.lie.node.on('touchend', () => {});
+      this.lie.node.on('touchstart', () => {
+        if (this.lock) return;
+        this.hero.play('lie');
+      });
+      this.lie.node.on('touchend', () => {
+        if (this.lock) return;
+        this.hero.play('run');
+      });
     }
 
     start () {
@@ -21,14 +29,16 @@ export default class NewClass extends cc.Component {
     }
 
     onButton(): void{
-      // const seq: cc.ActionInstant = cc.sequence(
-      //   cc.moveBy(1, 0, 70).easing(cc.),
-      //   cc.moveBy(1, 0, -70),
-      //   cc.callFunc(function() {
-      //     this.hero.play('run');
-      //   }, this)
-      // );
-      // this.hero.node.runAction(seq);
+      this.lock = true;
+      const seq: cc.ActionInstant = cc.sequence(
+        cc.moveBy(1, 0, 100).easing(cc.easeCubicActionOut()),
+        cc.moveBy(1, 0, -100).easing(cc.easeCubicActionIn()),
+        cc.callFunc(() => {
+          this.hero.play('run');
+          this.lock = false;
+        })
+      );
+      this.hero.node.runAction(seq);
       this.hero.play('jump');
     }
 
