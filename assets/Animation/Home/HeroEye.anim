@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "HeroEye",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.05,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 4.5,
+            "value": {
+              "__uuid__": "fe41bc05-1c2f-4e34-b278-700cdd367bbd"
+            }
+          },
+          {
+            "frame": 4.75,
+            "value": {
+              "__uuid__": "881884eb-fb08-48bd-8ba6-219023fc3dec"
+            }
+          },
+          {
+            "frame": 5,
+            "value": {
+              "__uuid__": "84368d12-bdf8-49a8-827b-2a7207ea1cd7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

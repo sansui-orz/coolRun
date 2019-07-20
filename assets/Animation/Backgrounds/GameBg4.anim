@@ -3,8 +3,8 @@
   "_name": "GameBg4",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 2,
-  "sample": 60,
+  "_duration": 6,
+  "sample": 20,
   "speed": 0.2,
   "wrapMode": 2,
   "curveData": {
@@ -17,7 +17,7 @@
               "value": 0
             },
             {
-              "frame": 2,
+              "frame": 6,
               "value": -500
             }
           ]
@@ -31,7 +31,7 @@
               "value": 500
             },
             {
-              "frame": 2,
+              "frame": 6,
               "value": 0
             }
           ]

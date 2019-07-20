@@ -11,7 +11,7 @@ export default class NewClass extends cc.Component {
 
     // LIFE-CYCLE CALLBACKS:
 
-    private lock = false;
+    private lock: boolean = false;
 
     onLoad () {
       this.lie.node.on('touchstart', () => {
@@ -22,13 +22,18 @@ export default class NewClass extends cc.Component {
         if (this.lock) return;
         this.hero.play('run');
       });
+      this.lie.node.on('touchcancel', () => {
+        if (this.lock) return;
+        this.hero.play('run');
+      });
     }
 
     start () {
 
     }
 
-    onButton(): void{
+    onButton(): void {
+      if (this.lock) return;
       this.lock = true;
       const seq: cc.ActionInstant = cc.sequence(
         cc.moveBy(1, 0, 100).easing(cc.easeCubicActionOut()),
