@@ -1,7 +1,7 @@
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class GameBaseView extends cc.Component {
 
     @property(cc.Animation)
     hero: cc.Animation = null;

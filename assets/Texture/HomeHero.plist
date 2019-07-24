@@ -4,69 +4,81 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>hero.png</key>
+            <key>UI_Role_JQ_01.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,2},{236,319}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{236,319}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{236,319}</string>
+                <key>spriteSourceSize</key>
+                <string>{236,319}</string>
+                <key>textureRect</key>
+                <string>{{0,0},{236,319}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
-            <key>heroeye01.png</key>
+            <key>UI_Role_JQ_02.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{63,323},{74,59}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{74,59}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{74,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{74,59}</string>
+                <key>textureRect</key>
+                <string>{{0,319},{74,59}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
-            <key>heroeye02.png</key>
+            <key>UI_Role_JQ_05.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,399},{74,59}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{74,59}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{74,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{74,59}</string>
+                <key>textureRect</key>
+                <string>{{74,319},{74,59}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
-            <key>heroeye03.png</key>
+            <key>UI_Role_JQ_07.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,323},{74,59}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{74,59}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{74,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{74,59}</string>
+                <key>textureRect</key>
+                <string>{{148,319},{74,59}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
         </dict>
         <key>metadata</key>
         <dict>
             <key>format</key>
-            <integer>2</integer>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
             <key>realTextureFileName</key>
             <string>HomeHero.png</string>
             <key>size</key>
-            <string>{256,512}</string>
+            <string>{236,378}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:a074db5c00008e394b2262122b44e5d7$</string>
+            <string>$TexturePacker:SmartUpdate:30e17adb2c19c9f13b1c24f0aebbaf65:3975b6c66021f92f254bb4d88858953b:9b5a5090cc82c1b58dced9ea89fa1863$</string>
             <key>textureFileName</key>
             <string>HomeHero.png</string>
         </dict>
