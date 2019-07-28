@@ -12,21 +12,27 @@
       "cc.Sprite": {
         "spriteFrame": [
           {
-            "frame": 6.666666666666667,
+            "frame": 0,
             "value": {
               "__uuid__": "f9e617fe-a4da-4f5d-9454-8100e8f9d662"
             }
           },
           {
-            "frame": 7,
+            "frame": 6.666666666666667,
             "value": {
               "__uuid__": "5e14d10a-bf2a-4f5a-878b-eded7251f617"
             }
           },
           {
-            "frame": 7.333333333333333,
+            "frame": 7,
             "value": {
               "__uuid__": "19f08f9a-0388-46ac-9a96-bc1278eecaa6"
+            }
+          },
+          {
+            "frame": 7.333333333333333,
+            "value": {
+              "__uuid__": "5e14d10a-bf2a-4f5a-878b-eded7251f617"
             }
           }
         ]

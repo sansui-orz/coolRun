@@ -9,30 +9,6 @@
   "wrapMode": 1,
   "curveData": {
     "paths": {
-      "Hero": {
-        "props": {
-          "x": [
-            {
-              "frame": 0,
-              "value": 0
-            },
-            {
-              "frame": 0.5,
-              "value": -150
-            }
-          ],
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 0
-            },
-            {
-              "frame": 0.5,
-              "value": 255
-            }
-          ]
-        }
-      },
       "Entrance": {
         "props": {
           "x": [
@@ -72,6 +48,31 @@
             {
               "frame": 0.5,
               "value": -137.557
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "HomeHero01": {
+        "comps": {},
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": -150
             }
           ],
           "opacity": [

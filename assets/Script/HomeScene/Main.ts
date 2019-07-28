@@ -10,7 +10,8 @@ export default class HomeMain extends cc.Component {
     RoleSelector: cc.Node = null;
 
     onLoad () {
-    	this.RoleSelector.active = false;
+    	// this.RoleSelector.active = false;
+        this.BaseView.active = false;
     }
 
     start () {
