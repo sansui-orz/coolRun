@@ -299,13 +299,13 @@
             <key>premultiplyAlpha</key>
             <false/>
             <key>realTextureFileName</key>
-            <string>hero2.png</string>
+            <string>hero02.png</string>
             <key>size</key>
             <string>{501,507}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:f71768ddb2b8fab41c73d00838597c25:ce3c0c247848c957a53f7eb21f8e2762:c6285d5b6b439ec231a3ed44fb9bc037$</string>
+            <string>$TexturePacker:SmartUpdate:9a4f8bd7e7de1eaeaf0f5055e8aab4c5:ce3c0c247848c957a53f7eb21f8e2762:594695a1f79b2ed4176fbeef19efeeac$</string>
             <key>textureFileName</key>
-            <string>hero2.png</string>
+            <string>hero02.png</string>
         </dict>
     </dict>
 </plist>

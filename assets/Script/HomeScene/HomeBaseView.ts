@@ -1,5 +1,6 @@
 const {ccclass, property} = cc._decorator;
-import globalData from 'GlobalData';
+import globalData from '../GlobalData';
+// const globalData = { HeroID: 0 };
 
 @ccclass
 export default class NewClass extends cc.Animation {

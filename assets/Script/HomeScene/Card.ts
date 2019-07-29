@@ -1,5 +1,5 @@
 const {ccclass, property} = cc._decorator;
-import globalData from 'GlobalData';
+import globalData from '../GlobalData';
 
 interface IHeroProperty {
   id: number;

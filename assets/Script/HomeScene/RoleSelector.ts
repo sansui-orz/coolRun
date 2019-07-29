@@ -13,7 +13,6 @@ export default class RoleSelector extends cc.Component {
     HeroList: cc.JsonAsset = null;
 
     onLoad () {
-      console.log(this.HeroList);
       const json = this.HeroList.json;
       for (let i = 0; i < json.length; i++) {
         const card = cc.instantiate(this.card);

@@ -3638,7 +3638,7 @@
     "_skewY": 0,
     "_is3DNode": false,
     "groupIndex": 0,
-    "_id": "ebM8Fi/utEr6OHDlWXXh3l"
+    "_id": "2fBt6zSmBPeZrQozLefYLa"
   },
   {
     "__type__": "cc.Node",
@@ -3699,7 +3699,7 @@
     "_skewY": 0,
     "_is3DNode": false,
     "groupIndex": 0,
-    "_id": "22Y+ZgCuJCSpG3qkMGKybq"
+    "_id": "f032iP6olG1rrzRmfjXRm3"
   },
   {
     "__type__": "cc.Sprite",
@@ -3729,7 +3729,7 @@
     "_atlas": {
       "__uuid__": "fb97bbd0-e2b9-4f7b-91c2-d6d44bf6e19f"
     },
-    "_id": "b33T3A14NFgbf0NaKxeQCy"
+    "_id": "e6fGnT74lJUoO4V+FEmiFL"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3804,7 +3804,7 @@
     "_skewY": 0,
     "_is3DNode": false,
     "groupIndex": 0,
-    "_id": "1aWvnjAT5MC5duXO5S0ovH"
+    "_id": "b4/6AfJs9CIKsYcMn3IrH2"
   },
   {
     "__type__": "cc.Sprite",
@@ -3834,7 +3834,7 @@
     "_atlas": {
       "__uuid__": "fb97bbd0-e2b9-4f7b-91c2-d6d44bf6e19f"
     },
-    "_id": "4cgptCHUlBwbJxL2tsFPa4"
+    "_id": "d9f1vywEtDOLqyYvbPtXL+"
   },
   {
     "__type__": "cc.Animation",
@@ -3853,7 +3853,7 @@
       }
     ],
     "playOnLoad": true,
-    "_id": "233Cpz5rdHkK7aFoV0xbgH"
+    "_id": "06WsUKLLtIQLwvzM1xaD+a"
   },
   {
     "__type__": "cc.PrefabInfo",

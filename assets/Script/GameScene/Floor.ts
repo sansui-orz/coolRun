@@ -7,10 +7,15 @@ export default class Floor extends cc.Component {
     FloorJson: cc.JsonAsset = null;
 
     @property([cc.Prefab])
-    FloorEle: cc.Prefab = [];
-    // LIFE-CYCLE CALLBACKS:
+    FloorEle: cc.Prefab[] = [];
+
+    constructor() {
+      super();
+      console.log(3);
+    }
 
     onLoad () {
+      console.log(4);
       this.node.zIndex = 3;
       const Json = this.FloorJson.json;
       console.log(Json);
@@ -18,12 +23,11 @@ export default class Floor extends cc.Component {
       const list = Json['floor-list'];
       for (let i = 0; i < list.length; i++) {
         const item = list[i];
-        const Block = cc.instantiate(this.FloorEle[item.type]);
+        const Block = cc.instantiate(this.FloorEle[0]);
         Block.x = item.postion.x;
         Block.y = item.postion.y;
         this.node.addChild(Block);
       }
-
 
     }
 

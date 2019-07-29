@@ -3,22 +3,22 @@
   "uuid": "eb899f53-b925-441b-afce-b13895080fdb",
   "rawTextureUuid": "ae17f6cc-fce8-4339-89be-0814df2c0212",
   "size": {
-    "width": 256,
-    "height": 512
+    "width": 216,
+    "height": 406
   },
   "type": "Texture Packer",
   "subMetas": {
-    "slice08_08.png": {
+    "ui_game_n_01.png": {
       "ver": "1.0.4",
-      "uuid": "9b359e36-72e7-4b0c-9ef8-cdccd1dca4dd",
+      "uuid": "85394b6b-53bc-431d-a46c-ff40f4454547",
       "rawTextureUuid": "ae17f6cc-fce8-4339-89be-0814df2c0212",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 2,
-      "trimY": 2,
+      "trimX": 0,
+      "trimY": 252,
       "width": 156,
       "height": 154,
       "rawWidth": 156,
@@ -30,17 +30,17 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "slice10_10.png": {
+    "ui_game_n_02.png": {
       "ver": "1.0.4",
-      "uuid": "fc063e66-f347-4845-b587-af9aa2b8d2f1",
+      "uuid": "31224952-241c-4b4f-9871-86ad1d87e532",
       "rawTextureUuid": "ae17f6cc-fce8-4339-89be-0814df2c0212",
       "trimType": "auto",
       "trimThreshold": 1,
-      "rotated": true,
+      "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 2,
-      "trimY": 158,
+      "trimX": 0,
+      "trimY": 97,
       "width": 150,
       "height": 155,
       "rawWidth": 150,
@@ -52,17 +52,17 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "slice30_30.png": {
+    "ui_game_n_21.png": {
       "ver": "1.0.4",
-      "uuid": "d4c95e35-fe74-4f99-8002-16d2d5271c16",
+      "uuid": "ab647c27-387d-4cd5-9834-d2e48c4f179c",
       "rawTextureUuid": "ae17f6cc-fce8-4339-89be-0814df2c0212",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 160,
-      "trimY": 2,
+      "trimX": 0,
+      "trimY": 0,
       "width": 83,
       "height": 97,
       "rawWidth": 83,
@@ -74,17 +74,17 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "slice42_42.png": {
+    "ui_game_n_34.png": {
       "ver": "1.0.4",
-      "uuid": "113eaa84-96b9-43ce-9546-fb2155d01404",
+      "uuid": "16a8c6f7-d1b2-46f8-966e-27425b247f0e",
       "rawTextureUuid": "ae17f6cc-fce8-4339-89be-0814df2c0212",
       "trimType": "auto",
       "trimThreshold": 1,
-      "rotated": true,
+      "rotated": false,
       "offsetX": 0,
       "offsetY": 0,
-      "trimX": 160,
-      "trimY": 101,
+      "trimX": 83,
+      "trimY": 0,
       "width": 133,
       "height": 80,
       "rawWidth": 133,

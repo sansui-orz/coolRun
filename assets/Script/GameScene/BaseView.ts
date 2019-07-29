@@ -1,5 +1,5 @@
 const {ccclass, property} = cc._decorator;
-import globalData from 'GlobalData';
+import globalData from '../GlobalData';
 
 @ccclass
 export default class GameBaseView extends cc.Component {
@@ -10,10 +10,11 @@ export default class GameBaseView extends cc.Component {
     @property(cc.Button)
     lie: cc.Button = null;
 
+    @property(cc.Button)
+    jump: cc.Button = null;
+
     @property([cc.Prefab])
     HeroList: cc.Prefab[] = [];
-
-    // LIFE-CYCLE CALLBACKS:
 
     private lock: boolean = false;
     private Hero: cc.Animation = null;
@@ -27,9 +28,10 @@ export default class GameBaseView extends cc.Component {
       const Hero: cc.Node = cc.instantiate(this.HeroList[globalData.HeroID]);
       this.HeroBox.addChild(Hero);
       this.Hero = Hero.getComponent(cc.Animation);
+      // console.log(333);
 
-
-      this.lie.zIndex = 10;
+      this.lie.node.zIndex = 10;
+      this.jump.node.zIndex = 10;
 
       this.lie.node.on('touchstart', () => {
         if (this.lock) return;

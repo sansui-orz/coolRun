@@ -14,13 +14,13 @@
           {
             "frame": 0,
             "value": {
-              "__uuid__": "3f93edb6-af9f-487a-bb5e-b47909d5b41f"
+              "__uuid__": "9ce456a7-2f32-424f-9d25-81a5cdc93a3a"
             }
           },
           {
             "frame": 0.5,
             "value": {
-              "__uuid__": "5b7ed104-4ac9-4fc6-ba5c-da3ca28106d4"
+              "__uuid__": "80b51f32-df97-446b-bc1e-689753bb2959"
             }
           }
         ]
@@ -34,7 +34,7 @@
         },
         {
           "frame": 0.5,
-          "value": -14
+          "value": -12
         }
       ]
     }
