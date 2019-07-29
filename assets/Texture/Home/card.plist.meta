@@ -177,10 +177,10 @@
       "height": 210,
       "rawWidth": 57,
       "rawHeight": 210,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
+      "borderTop": 22,
+      "borderBottom": 35,
+      "borderLeft": 17,
+      "borderRight": 23,
       "spriteType": "normal",
       "subMetas": {}
     }

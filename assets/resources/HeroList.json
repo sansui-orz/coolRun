@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "name": "帅哥",
+    "has": true,
+    "type": 0
+  },
+  {
+    "id": 1,
+    "name": "美女",
+    "has": true,
+    "type": 1
+  }
+]

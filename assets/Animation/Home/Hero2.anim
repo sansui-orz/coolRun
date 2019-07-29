@@ -3,9 +3,9 @@
   "_name": "Hero2",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 1.1833333333333333,
-  "sample": 60,
-  "speed": 1,
+  "_duration": 7.666666666666667,
+  "sample": 3,
+  "speed": 3,
   "wrapMode": 2,
   "curveData": {
     "paths": {
@@ -20,19 +20,19 @@
                 }
               },
               {
-                "frame": 1,
+                "frame": 6.666666666666667,
                 "value": {
                   "__uuid__": "359bac42-83ff-4d93-b9ed-5f0b7ad037d3"
                 }
               },
               {
-                "frame": 1.0833333333333333,
+                "frame": 7,
                 "value": {
                   "__uuid__": "19319e15-c6af-4b1b-abb1-f5e4fe915d4e"
                 }
               },
               {
-                "frame": 1.1666666666666667,
+                "frame": 7.333333333333333,
                 "value": {
                   "__uuid__": "359bac42-83ff-4d93-b9ed-5f0b7ad037d3"
                 }
@@ -46,25 +46,25 @@
           "cc.Sprite": {
             "spriteFrame": [
               {
-                "frame": 0.016666666666666666,
+                "frame": 0,
                 "value": {
                   "__uuid__": "72372124-af74-4ba9-8a9c-e4fe43e241fe"
                 }
               },
               {
-                "frame": 1,
+                "frame": 6.666666666666667,
                 "value": {
                   "__uuid__": "6976505a-d2de-4e47-ba90-d40c8cd4cb93"
                 }
               },
               {
-                "frame": 1.0833333333333333,
+                "frame": 7,
                 "value": {
                   "__uuid__": "286fb5b9-cc4a-455e-9780-b52b43c8dff8"
                 }
               },
               {
-                "frame": 1.1666666666666667,
+                "frame": 7.333333333333333,
                 "value": {
                   "__uuid__": "6976505a-d2de-4e47-ba90-d40c8cd4cb93"
                 }

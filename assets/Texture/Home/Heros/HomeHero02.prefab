@@ -57,14 +57,14 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -147.062,
-      "y": 17.56,
+      "x": 0,
+      "y": 0,
       "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.4,
-      "y": 0.4,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_quat": {
@@ -402,7 +402,7 @@
         "__uuid__": "908e446e-fe1f-444e-9ec4-104c9c5519e1"
       }
     ],
-    "playOnLoad": false,
+    "playOnLoad": true,
     "_id": ""
   },
   {

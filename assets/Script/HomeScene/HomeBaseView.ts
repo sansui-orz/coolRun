@@ -1,29 +1,33 @@
-// Learn TypeScript:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/typescript.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
-
 const {ccclass, property} = cc._decorator;
+import globalData from 'GlobalData';
 
 @ccclass
 export default class NewClass extends cc.Animation {
-    // onLoad () {}
+  @property([cc.Prefab])
+  private HeroList: cc.Prefab[] = [];
 
-    start () {
+  onLoad () {
+    this.showHero(globalData.HeroID);
+  }
 
-    }
+  onEnable() {
+    this.showHero(globalData.HeroID);
+    // const animation = this.node.getComponent('BaseView');
+    // animation.play('BaseView');
+    this.play('BaseView');
+    // this.play(this.name);
+  }
 
-    onEnable() {
-    	// const animation = this.node.getComponent('BaseView');
-    	// animation.play('BaseView');
-    	this.play('BaseView');
-    	// this.play(this.name);
-    }
+  start () {
 
-    // update (dt) {}
+  }
+
+  showHero(HeroID) {
+    const HeroBox = this.node.getChildByName('HeroBox');
+    HeroBox.removeAllChildren();
+    const Hero = cc.instantiate(this.HeroList[HeroID]);
+    HeroBox.addChild(Hero);
+  }
+
+  // update (dt) {}
 }

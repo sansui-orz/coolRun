@@ -1,8 +1,7 @@
 const {ccclass, property} = cc._decorator;
-const Card = require('Card').default;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class RoleSelector extends cc.Component {
 
     @property(cc.Node)
     listContent: cc.Node = null;
@@ -10,19 +9,19 @@ export default class NewClass extends cc.Component {
     @property(cc.Prefab)
     card: cc.Prefab = null;
 
+    @property(cc.JsonAsset)
+    HeroList: cc.JsonAsset = null;
+
     onLoad () {
-	    const newCard = new Card({
-	    	type: 0,
-	    	heroID: 0,
-	    	isNew: true,
-	    	isHot: false,
-	    	has: true,
-	    	goldCoin: 500,
-	    	diamond: 200,
-	    	descript: '英雄的介绍',
-	    	name: '帅哥',
-	    	power: 342
-	    });
+      console.log(this.HeroList);
+      const json = this.HeroList.json;
+      for (let i = 0; i < json.length; i++) {
+        const card = cc.instantiate(this.card);
+        const cardScript = card.getComponent('Card');
+        cardScript.init(json[i]);
+        cardScript.root = this.node.parent;
+        this.listContent.addChild(card);
+      }
     }
 
     start () {

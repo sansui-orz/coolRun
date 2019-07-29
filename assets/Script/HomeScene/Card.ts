@@ -1,45 +1,58 @@
 const {ccclass, property} = cc._decorator;
+import globalData from 'GlobalData';
 
-interface cardProperty {
-  type: number;
-  heroID: number;
-  isNew: boolean;
-  isHot: boolean;
-  has: boolean;
-  goldCoin: number;
-  diamond: number;
-  descript: string;
+interface IHeroProperty {
+  id: number;
   name: string;
-  power: number;
+  has: boolean;
+  type: number;
 };
 
 @ccclass
-export default class Card extends cc.Node {
-    // LIFE-CYCLE CALLBACKS:
-    public width: number = 80;
-    public height: number = 150;
+export default class Card extends cc.Component {
+  @property(cc.SpriteAtlas)
+  private cardSpriteAtlas: cc.SpriteAtlas = null;
 
-    public type: number = 0; // 蓝色卡片
-    public heroID: number = 0; // 哪个英雄
-    public isNew: boolean = false; // 是否需要新的标签
-    public isHot: boolean = false; // 是否需要Hot的标签
-    public has: boolean = false; // 是否已经拥有，拥有则可以直接召唤
-    public goldCoin: number = 1000; // 金币的售价
-    public diamond: number = 500; // 钻石的售价
-    public descript: string = ''; // 英雄的描述
-    public name: string = ''; // 英雄的名字
-    public power: number = 100; // 英雄的战斗力
+  @property([cc.Prefab])
+  private HeroList: cc.Prefab[] = [];
 
-    constructor(props: cardProperty) {
-    	super();
-      console.log(props);
+
+  onLoad () {
+  }
+
+  start () {
+
+  }
+
+  init(props: IHeroProperty) {
+    const NameLabel = this.node.getChildByName('NameLabel');
+    NameLabel.getComponent(cc.Label).string = props.name;
+    // 如果type是1，则是黄色背景
+    if (props.type === 1) {
+      const Bg: cc.Node = this.node.getChildByName('Bg');
+      const yellowBgSprite: cc.SpriteFrame = this.cardSpriteAtlas.getSpriteFrame('天天酷跑.00178_07');
+      Bg.getComponent(cc.Sprite).spriteFrame = yellowBgSprite;
     }
 
-    // onLoad () {}
+    const hero = cc.instantiate(this.HeroList[props.id]);
+    hero.anchorX = 0.5;
+    hero.anchorY = 0.5;
+    const HeroBox = this.node.getChildByName('HeroBox');
+    // HeroBox.removeAllChildren();
+    HeroBox.addChild(hero);
 
-    start () {
+    const Btn = this.node.getChildByName('Btn');
+    Btn.on('touchend', () => {
+      this.checkoutHero(props.id);
+    });
+  }
 
-    }
+  // 切换英雄
+  checkoutHero(HeroID: number) {
+    globalData.HeroID = HeroID;
+    const MainScript = this.root.getComponent('Main');
+    MainScript.onRoleBack();
+  }
 
-    // update (dt) {}
+  // update (dt) {}
 }
