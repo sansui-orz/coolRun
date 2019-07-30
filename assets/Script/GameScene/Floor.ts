@@ -22,9 +22,9 @@ export default class Floor extends cc.Component {
         this.node.addChild(Block);
       }
 
-      const action: cc.Action = cc.moveBy(Json['floor-length'] / Json.speed, -Json['floor-length'], 0);
+      // const action: cc.Action = cc.moveBy(Json['floor-length'] / Json.speed, -Json['floor-length'], 0);
       // const action: cc.Action = cc.moveBy(2, 300, 0);
-      this.node.runAction(action);
+      // this.node.runAction(action);
     }
 
     start () {

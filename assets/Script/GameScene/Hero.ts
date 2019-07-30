@@ -5,9 +5,9 @@ export default class NewClass extends cc.Component {
 
     onLoad () {
       // 开启物理系统
-      // cc.director.getPhysicsManager().enabled = true;
+      cc.director.getPhysicsManager().enabled = true;
 
-      // cc.director.getPhysicsManager().debugDrawFlags = cc.PhysicsManager.DrawBits.e_aabbBit;
+      cc.director.getPhysicsManager().debugDrawFlags = cc.PhysicsManager.DrawBits.e_aabbBit;
     }
 
     start () {
@@ -41,7 +41,7 @@ export default class NewClass extends cc.Component {
     // // 以下属性为 矩形 和 多边形 碰撞组件特有属性
     // var ps = world.points;
 
-    console.log(1, other);
+    // console.log(1, other);
   }
   /**
    * 当碰撞产生后，碰撞结束前的情况下，每次计算碰撞结果后调用

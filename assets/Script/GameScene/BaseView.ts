@@ -53,17 +53,22 @@ export default class GameBaseView extends cc.Component {
 
     onButton(): void {
       if (this.lock) return;
-      this.lock = true;
-      const seq: cc.ActionInstant = cc.sequence(
-        cc.moveBy(1, 0, 100).easing(cc.easeCubicActionOut()),
-        cc.moveBy(1, 0, -100).easing(cc.easeCubicActionIn()),
-        cc.callFunc(() => {
-          this.Hero.play('run');
-          this.lock = false;
-        })
-      );
-      this.Hero.node.runAction(seq);
-      this.Hero.play('jump');
+      // this.lock = true;
+      // const seq: cc.ActionInstant = cc.sequence(
+      //   cc.moveBy(1, 0, 100).easing(cc.easeCubicActionOut()),
+      //   cc.moveBy(1, 0, -100).easing(cc.easeCubicActionIn()),
+      //   cc.callFunc(() => {
+      //     this.Hero.play('run');
+      //     this.lock = false;
+      //   })
+      // );
+      // this.Hero.node.runAction(seq);
+      // this.Hero.play('jump');
+      // 获取hero在世界坐标系中的质心
+      const rigidbody = this.Hero.node.getComponent(cc.RigidBody);
+      const worldCenter = rigidbody.getWorldCenter();
+      // 给HERO刚体施加向上的冲量
+      rigidbody.applyLinearImpulse(cc.v2(this.Hero.node.x, this.Hero.node.y + 600), worldCenter, true);
     }
 
     // update (dt) {}
