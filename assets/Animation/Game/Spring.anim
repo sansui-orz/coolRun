@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Spring",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 6.666666666666667,
+  "sample": 3,
+  "speed": 4,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.45
+        },
+        {
+          "frame": 3.3333333333333335,
+          "value": 0.55
+        },
+        {
+          "frame": 6.666666666666667,
+          "value": 0.45
+        }
+      ]
+    }
+  },
+  "events": []
+}

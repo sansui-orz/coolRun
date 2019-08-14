@@ -3,7 +3,7 @@ interface GlobalData {
 };
 
 const globalData: GlobalData = {
-  HeroID: 0
+  HeroID: 1
 };
 
 export default globalData;

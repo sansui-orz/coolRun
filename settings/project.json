@@ -9,6 +9,8 @@
       false,
       true,
       false,
+      true,
+      null,
       true
     ],
     [
@@ -28,6 +30,49 @@
       true
     ],
     [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      null,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       false,
       true,
       false,
@@ -37,8 +82,12 @@
     [
       false,
       false,
+      false,
+      false,
+      false,
       true,
-      true,
+      false,
+      false,
       false,
       false
     ]
@@ -64,7 +113,11 @@
     "DeathArea",
     "Floor",
     "Win",
-    "HeroFoot"
+    "Hero",
+    "wall",
+    "fixed",
+    "gold",
+    "dici"
   ],
   "last-module-event-record-time": 0,
   "simulator-orientation": false,

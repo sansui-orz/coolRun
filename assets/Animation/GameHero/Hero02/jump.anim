@@ -6,7 +6,7 @@
   "_duration": 1,
   "sample": 5,
   "speed": 1.6,
-  "wrapMode": 38,
+  "wrapMode": 1,
   "curveData": {
     "comps": {
       "cc.Sprite": {
@@ -14,31 +14,31 @@
           {
             "frame": 0,
             "value": {
-              "__uuid__": "28e132ef-b5eb-4baf-8895-ca2f81b73718"
+              "__uuid__": "962f29ca-d43f-4a79-9258-26189346193d"
             }
           },
           {
             "frame": 0.2,
             "value": {
-              "__uuid__": "83f8b391-ee70-4a5b-8a56-2ea3c2326989"
+              "__uuid__": "640d17a7-d77b-4608-8386-d47446468ea1"
             }
           },
           {
             "frame": 0.4,
             "value": {
-              "__uuid__": "7489e71d-921b-4a6e-bd5a-b4578ad38915"
+              "__uuid__": "eba162e2-4606-4bb0-a2ed-e5864cd944c1"
             }
           },
           {
             "frame": 0.6,
             "value": {
-              "__uuid__": "c9140f10-c7ad-4436-9024-1a89a6173d74"
+              "__uuid__": "64abeab2-c80e-4cb7-bbf5-33cd9c055b50"
             }
           },
           {
             "frame": 0.8,
             "value": {
-              "__uuid__": "fc095d27-f45a-4b63-9248-b89f6b5c5467"
+              "__uuid__": "bf3b9729-e2ee-46a3-a306-82d43ca0d29f"
             }
           }
         ]
